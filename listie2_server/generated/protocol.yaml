@@ -1,0 +1,18 @@
+asset:
+  - getUploadDescription:
+  - verifyUpload:
+category:
+  - listAll:
+example:
+  - hello:
+ingredient:
+  - listAll:
+  - category:
+  - create:
+  - toggleIsChecked:
+  - rename:
+  - delete:
+profile:
+  - retrieve:
+  - me:
+  - updateAvatar:

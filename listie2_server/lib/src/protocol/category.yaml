@@ -1,0 +1,4 @@
+class: Category
+table: category
+fields:
+  name: String

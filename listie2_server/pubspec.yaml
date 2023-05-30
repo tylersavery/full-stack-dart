@@ -1,0 +1,15 @@
+name: listie2_server
+description: Starting point for a Serverpod server.
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  serverpod: ^1.0.1
+  serverpod_auth_server: ^1.0.1
+  serverpod_cloud_storage_s3: ^1.0.1
+
+dev_dependencies:
+  lints: ^2.0.0

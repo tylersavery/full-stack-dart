@@ -1,0 +1,7 @@
+class: Profile
+table: profile
+
+fields:
+  userId: int
+  avatarUrl: String
+  bio: String

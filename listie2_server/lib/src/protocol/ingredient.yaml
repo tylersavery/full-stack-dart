@@ -1,0 +1,7 @@
+class: Ingredient
+table: ingredient
+fields:
+  userId: int
+  name: String
+  categoryId: int, parent=category
+  isChecked: bool
