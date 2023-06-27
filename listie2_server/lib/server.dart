@@ -34,12 +34,13 @@ void run(List<String> args) async {
   auth.AuthConfig.set(auth.AuthConfig(
     sendValidationEmail: (session, email, validationCode) async {
       await Future.delayed(Duration(milliseconds: 500));
-      print(validationCode);
+      session.log(validationCode);
       return true;
     },
     sendPasswordResetEmail: (session, userInfo, validationCode) async {
       await Future.delayed(Duration(milliseconds: 500));
-      print(validationCode);
+      session.log(validationCode);
+
       return true;
     },
   ));
