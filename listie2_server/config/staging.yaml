@@ -11,27 +11,27 @@
 # Configuration for the main API server.
 apiServer:
   port: 8080
-  publicHost: api-staging.examplepod.com
+  publicHost: api-staging.listie.online
   publicPort: 443
   publicScheme: https
 
 # Configuration for the Insights server.
 insightsServer:
   port: 8081
-  publicHost: insights-staging.examplepod.com
+  publicHost: insights-staging.listie.online
   publicPort: 443
   publicScheme: https
 
 # Configuration for the web server.
 webServer:
   port: 8082
-  publicHost: app-staging.examplepod.com
+  publicHost: app-staging.listie.online
   publicPort: 443
   publicScheme: https
 
 # This is the database setup for your servers.
 database:
-  host: database-staging.examplepod.com
+  host: database-staging.listie.online
   port: 5432
   name: serverpod
   user: postgres
@@ -39,5 +39,5 @@ database:
 # This is the setup for Redis.
 redis:
   enabled: false
-  host: redis-staging.examplepod.com
+  host: redis-staging.listie.online
   port: 6379
