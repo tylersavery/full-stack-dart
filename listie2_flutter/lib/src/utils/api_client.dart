@@ -13,7 +13,7 @@ class ApiClientImplementation extends ApiClient {
   @override
   Future<void> init() async {
     client = Client(
-      'http://localhost:8080/',
+      'https://api.listie.online/',
       authenticationKeyManager: FlutterAuthenticationKeyManager(),
     )..connectivityMonitor = FlutterConnectivityMonitor();
 
